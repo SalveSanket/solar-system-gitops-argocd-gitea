@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: solar-system-container
-          image: indicationmark/solar-system-app:2ecc3ce305117545c3da64714d88872f75a79f49
+          image: indicationmark/solar-system-app:a23c63e11a8b030681305cea675e4cc4f6123d16
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
